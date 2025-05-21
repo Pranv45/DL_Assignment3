@@ -87,7 +87,7 @@ decoder_output = TimeDistributed(Dense(decoder_concat))
   * Measures n-gram overlap with reference.
 
 
-## ✅ Conclusion
+## Conclusion
 
 We implemented and compared two seq2seq models on the Hindi transliteration task:
 
@@ -98,7 +98,7 @@ The attention mechanism improves training and inference by allowing the model to
 
 ---
 
-## 🛠️ How to Run
+## How to Run
 
 1. **Open Jupyter Notebooks:**
    Use Google Colab or Jupyter Lab.
@@ -121,23 +121,7 @@ The attention mechanism improves training and inference by allowing the model to
 
 5. **Train the Model:**
 
-   * For the no-attention model, call:
-
-     ```python
-     model = Seq2SeqModel(...)
-     model.build_and_train()
-     ```
-   * For the attention model, start the sweep or run:
-
-     ```python
-     model = build_model(...)
-     train_model(...)
-     ```
-
-6. **Evaluate:**
-   Use `decode_sequence` or beam search methods to infer outputs.
-
-7. **View Logs:**
+6. **View Logs:**
    Metrics like accuracy and word accuracy are logged via `wandb`.
 
 ---
