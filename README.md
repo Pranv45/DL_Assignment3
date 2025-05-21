@@ -1,4 +1,4 @@
-# Sequence-to-Sequence Models (With vs. Without Attention)
+# Sequence-to-Sequence Models (With and Without Attention)
 
 This report compares two encoder–decoder (seq2seq) models trained for transliteration using the Dakshina Hindi dataset. One model uses a **basic RNN encoder–decoder** (without attention), and the other uses the same architecture augmented with **Bahdanau (additive) attention**. We describe the data and preprocessing, detail each model’s architecture, training setup, and then compare their performance.
 
